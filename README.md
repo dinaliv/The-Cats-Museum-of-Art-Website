@@ -1,6 +1,9 @@
 # The-Cats-Museum-of-Art-Website
 Welcome to The Cats Museum of Art, an imaginary museum dedicated to all things feline! This project showcases a creative and engaging website for the museum, featuring original web design and user interface (UI) elements. The site was built entirely using HTML and CSS as part of a web development course project.
 
+The website is deployed and can be accessed online:
+http://mylinux.langara.bc.ca/~dnalivaiko00/term-project-diana-nalivaiko/index.html
+
 Pages
 
 The website contains four fully designed pages:
