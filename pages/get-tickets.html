@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Tickets | The Cats Museum of Art</title>
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito Sans">
+
+    <script src="https://kit.fontawesome.com/57aa54adbd.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+
+</head>
+<body>
+    <header>
+
+        <nav id="primary">
+            <h1><a href="../index.html">THE CATS</a></h1>
+            <ul>
+                <li><button id="visit"><a href="visit.html"> Visit </a></button></li>
+                <li><button id="donate"><a href="visit.html"> Donate </a></button></li>
+                <li><button id="tickets"><a href="get-tickets.html">Get Tickets</a></button></li>
+            </ul>
+        </nav>
+
+        <h2>Tickets</h2>
+    </header>
+
+    <main>
+        <section class="get-tickets">
+            <h3>Get Tickets Now</h3>
+            <p>
+                General admission tickets available for dates through September 2024. Tickets for “Cats in Modern Art” available for dates through July 28, 2024. 
+            </p>
+        </section>
+
+        <section class="exchanges">
+            <h3>Exchages and Returns</h3>
+            <p>
+                If your plans change, please see our policy regarding ticket return and exchange options.
+            </p>
+        </section>
+
+        <h2 id="form-header"> Fill Out the Form </h2>
+        <form action="" method="GET">
+                        
+            <fieldset>
+                <legend>Admission</legend>
+
+                <label>
+                    Students
+                    <input type="radio" name="category">
+
+                </label>
+
+                <label>
+
+                    Adults
+                    <input type="radio" name="category">
+                </label>
+
+                <label>
+                    Youth 7-17
+                    <input type="radio" name="category">
+                </label>
+
+                <label>
+                    Youth 0-6
+                    <input type="radio" name="category">
+                </label>
+
+                <label id="num-tickets"> How many tickets would you to purchase? 
+                    <input type="number" name="participantes" min="1" max="30" value="1">
+                </label>
+                   
+
+            </fieldset>
+
+        
+            <button id="submit">Submit</button>
+
+        </form>
+        
+
+
+    </main>
+
+    <footer>
+        <h3><a href="references.html">References</a></h3>
+        <nav id="footer-nav">
+            <ul>
+                <li><a href="../index.html">About The Cats Museum of Art</a></li>
+                <li><a href="../index.html">Mission and History</a></li>
+                <li><a href="../index.html">Support</a></li>
+                <li><a href="../index.html">Host an Event</a></li>
+                <li><a href="../index.html">Contact</a></li>
+            </ul>
+            
+            <h3> Follow Us</h3>
+            <ul class="social-media">
+                <li>
+                    <a href="../index.html">
+                        <i aria-hidden="true" class="fa-brands fa-instagram"></i>
+                        <span class="fa-sr-only">The museum's Instagram account</span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="../index.html">
+                        <i aria-hidden="true" class="fa-brands fa-x-twitter"></i>
+                        <span class="fa-sr-only">The museum's Twitter account</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="../index.html">
+                        <i aria-hidden="true" class="fa-brands fa-youtube"></i>
+                        <span class="fa-sr-only">The museum's Youtube account</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        
+    </footer>
+</body>
+</html>

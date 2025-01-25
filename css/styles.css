@@ -1,0 +1,414 @@
+/* Basic Settings */
+html {
+    font-family: Nunito Sans;
+    font-size:var(--typography--font-size--small);
+    line-height: 1.7;
+
+    color: var(--colors--text);
+
+    scroll-behavior: smooth;  
+}
+
+body {
+    background-color: var(--colors--background);
+}
+
+main {
+    background-color: #eaeaeace;
+}
+
+/* Header */
+header img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    margin-top: var(--layout--spacing-small);
+}
+
+header h1 {
+    font-size: var(--typography--font-size--large);
+}
+
+
+/* Layout */
+header, main, footer {
+    max-width: var(--layout--max-width);
+    margin: 0 auto 0 auto;
+}
+
+/* Navigation */
+#primary ul {
+    list-style-type: none;
+    padding-left: 0;
+    display:grid;
+    grid-template-columns: 1.2fr 1.5fr 2fr;
+    margin-bottom: 0;
+    border-bottom: 2px solid var(--colors--text);
+}
+
+#primary li {
+    display: flex;
+    justify-content: end;
+    margin-right: 2.5px;;
+}
+
+#primary {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border-bottom: var(--layout--medium-spacing) solid var(--colors--secondary);
+    
+    
+}
+
+#primary h1 {
+    margin-bottom: 0;
+    margin-top: var(--layout--spacing-small);
+    border-bottom: 2px solid var(--colors--text);
+}
+
+.social-media {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-right: 75%;
+}
+#primary a {
+    color:var(--colors--text);
+    text-decoration: none;
+}
+
+#visit-nav {
+    padding: var(--layout--spacing-small);
+    justify-content: left;
+      
+}
+
+#visit-nav ul{
+    list-style-type: none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: var(--layout--medium-spacing);
+    padding-left: 0;
+    
+}
+
+
+
+#footer-nav ul{
+    list-style-type: none;
+    margin-top: 0;
+}
+
+#footer-nav a{
+    text-decoration: none;
+}
+
+/* Buttons */
+#tickets {
+    background-color: var(--colors--secondary);
+    
+    border: none;
+    border-radius: 3px;
+    padding: var(--layout--spacing-small);
+}
+
+#donate {
+    background-color: var(--colors--background);
+    
+    border: 1px solid var(--colors--text);
+    border-radius: 3px;
+    padding: var(--layout--spacing-small);
+}
+
+#visit {
+    background-color: var(--colors--background);
+    
+    border: none;
+    border-radius: 3px;
+    padding: var(--layout--spacing-small);
+}
+
+#primary button {
+    position: fixed;
+}
+
+#download, #submit {
+    padding: var(--layout--spacing-small);
+    margin-bottom: var(--layout--medium-spacing);
+    background-color: var(--colors--background);
+
+    border: 1px solid var(--colors--text);
+    border-radius: 3px;
+}
+
+
+
+/* Sections */
+section img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    margin-top: var(--layout--spacing-small);
+
+}
+
+section {
+    margin-left: var(--layout--spacing-small);
+    margin-right: var(--layout--spacing-small);
+}
+
+h2 {
+    font-size: var(--layout--medium-spacing);
+    background-color: var(--colors--primary);
+    color: var(--colors--background);
+    padding: var(--layout--medium-spacing);
+    padding-left: var(--layout--spacing-small);
+    border: 4px solid var(--colors--background);
+    border-left: 0;
+    border-right: 0;
+
+    text-transform: uppercase;
+}
+
+.now-on-view {
+    padding-top: var(--layout--spacing-small);
+}
+
+.location div{
+    border: 4px solid var(--colors--background);
+    padding: var(--layout--medium-spacing);
+    height: 350px;
+}
+
+
+.location h3 {
+    margin-top: 0;
+}
+
+.locations-and-hours{
+    padding-bottom: var(--layout--spacing-small);
+}
+
+span {
+    font-weight: bold;
+}
+
+.visit {
+    background-color: var(--colors--secondary);
+    margin: 0;
+}
+
+.visit h1, .visit p, .visit h3 {
+    padding: var(--layout--medium-spacing);
+    padding-left: var(--layout--spacing-small);
+    margin-bottom: 0;
+}
+
+h3 {
+    padding: var(--layout--medium-spacing);
+    padding-top: var(--layout--spacing-small);
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+p {
+    padding: var(--layout--medium-spacing);
+    padding-top: 0;
+    margin-top:0;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.exchanges h3 {
+    margin-top: var(--layout--medium-spacing);
+}
+/* Anchors */
+a {
+    text-decoration-style: dashed;
+    color:var(--colors--text);
+}
+
+#mobile-app p {
+    padding-top: var(--layout--medium-spacing);
+}
+
+/* Footer */
+footer {
+    border-top: var(--layout--medium-spacing) solid var(--colors--secondary);
+    margin-top: var(--layout--medium-spacing);
+}
+/* Tables */
+table {
+    font-family: Nunito Sans;
+    width:100%; 
+}
+
+#hours-and-admission table{
+    border-collapse: collapse;
+    line-height: var(--typography--font-size--large);
+    
+}
+
+.table-wrapper{
+    overflow-x: scroll;
+}
+
+
+td, tr {
+    border: 2px solid #313D5A;
+    min-width: 200px;
+}
+
+th {
+    background-color: var(--colors--secondary); 
+    
+}
+
+
+/* Form */
+#form-header {
+    font-size: var(--layout--medium-spacing);
+    background-color: var(--colors--background);
+    color: var(--colors--text);
+    padding: var(--layout--medium-spacing);
+    padding-left: var(--layout--spacing-small);
+    border: 4px solid var(--colors--background);
+    border-left: 0;
+    border-right: 0;
+    margin-bottom: 0;
+
+    text-transform: uppercase;
+}
+
+form {
+    background-color: var(--colors--secondary);
+    padding: var(--layout--medium-spacing);
+    padding-left: var(--layout--spacing-small); 
+   
+}
+
+label {
+    display:block;
+    padding-bottom:1rem;
+    min-width: 120px;
+}
+
+input {
+    box-sizing:border-box;
+}
+
+#submit {
+    margin-top: var(--layout--medium-spacing);
+    margin-bottom: 0;
+}
+
+#num-tickets {
+    max-width: 250px;
+}
+
+#num-tickets input {
+    margin: var(--layout--spacing-small);
+    margin-left: 0;
+}
+
+/* Medium Screen Layout */
+@media screen and (min-width: 500px) {
+    #primary {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-bottom: var(--layout--medium-spacing) solid var(--colors--secondary);
+    }
+
+    h2 {
+        font-size: var(--typography--font-size--large);
+    }
+
+    #plan-your-visit {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--layout--spacing-small);
+
+    }
+
+    #plan-your-visit img{
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .now-on-view {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--layout--spacing-small);
+    }
+
+    .now-on-view img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .locations-and-hours {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--layout--spacing-small);
+    }
+
+    .locations-and-hours img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    #hours-and-admission {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--layout--spacing-small);
+    }
+
+    fieldset {
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+    }
+
+    #num-tickets {
+        grid-column: 1/4;
+        max-width: 350px;
+    }
+
+    
+
+}
+
+/* Large Screen Layout */
+@media screen and (min-width: 1200px) {
+    #plan-your-visit {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: var(--layout--spacing-small);
+
+    }
+
+    #general-information-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: var(--layout--spacing-small);
+    }
+
+    .now-on-view {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: var(--layout--spacing-small);
+    }
+
+    .now-on-view img {
+        height: 300px;
+        object-fit: cover;
+    }
+
+    #visit-nav ul{
+        list-style-type: none;
+        display:grid;
+        justify-items: center;
+        
+    }
+
+
+}
